@@ -1,0 +1,91 @@
+/* Styles extracted from inline style="" attributes in the site's .htm pages. */
+
+/* Paragraphs pasted from Word with zero margins (was style="MARGIN: 0in 0in 0pt") */
+p.flush {
+  margin: 0in 0in 0pt;
+}
+
+/* Was style="font-size: 10pt" */
+.small-text {
+  font-size: 10pt;
+}
+
+/* Word/Office-only properties carried over from pasted content.
+   Browsers ignore these; kept so the markup round-trips through Office/FrontPage. */
+.mso-space {
+  mso-spacerun: yes;
+}
+
+.mso-lang {
+  mso-fareast-font-family: "Times New Roman";
+  mso-ansi-language: EN-US;
+  mso-fareast-language: EN-US;
+  mso-bidi-language: AR-SA;
+}
+
+
+/* ------------------------------------------------------------------
+   Page-wide styles (were bgcolor/background/text/link/vlink/alink on <body>)
+   ------------------------------------------------------------------ */
+body.site {
+  background: #ffffff url(../_themes/expeditn/exptextb.jpg);
+  color: #000000;
+}
+.site a:link    { color: #993300; }
+.site a:visited { color: #666600; }
+.site a:active  { color: #cc3300; }
+
+
+/* Fonts (were <font face="..."> / <font size="...">; <font> is now <span>) */
+.ff-book-antiqua-stack { font-family: "Book Antiqua", "Times New Roman", Times; }
+.ff-arial { font-family: Arial; }
+.fs-2 { font-size: small; }
+.ff-book-antiqua { font-family: "Book Antiqua"; }
+.fs-4 { font-size: large; }
+
+/* Text colors (were <font color="...">) */
+.color-660033 { color: #660033; }
+.color-000000 { color: #000000; }
+.color-00000b { color: #00000b; }
+.color-c0c0c0 { color: #c0c0c0; }
+.color-666666 { color: #666666; }
+
+/* Alignment (were align="..." / valign="...") */
+.ta-center { text-align: center; }
+.va-top { vertical-align: top; }
+.ta-right { text-align: right; }
+.ta-left { text-align: left; }
+.va-baseline { vertical-align: baseline; }
+
+/* Widths (were width="..." on tables and cells) */
+.w-100pct { width: 100%; }
+.w-1pct { width: 1%; }
+.w-24 { width: 24px; }
+.w-595 { width: 595px; }
+.w-193 { width: 193px; }
+.w-125 { width: 125px; }
+.w-36 { width: 36px; }
+.w-50 { width: 50px; }
+.w-53 { width: 53px; }
+.w-112 { width: 112px; }
+.w-42 { width: 42px; }
+
+/* Background colors (were bgcolor="...") */
+.bg-50402d { background-color: #50402d; }
+.bg-c0c0c0 { background-color: #c0c0c0; }
+
+/* Table layout (were border / cellpadding / cellspacing on <table>) */
+.cellpad-0 > * > tr > td,
+.cellpad-0 > * > tr > th { padding: 0px; }
+.cellspace-0 { border-spacing: 0px; }
+.tbl-border-1 { border: 1px outset; }
+:where(.tbl-border-1 > * > tr) > td,
+:where(.tbl-border-1 > * > tr) > th { border: 1px inset; border-color: inherit; }
+
+/* Images (were border="..." / hspace="...") */
+.border-0 { border: 0; }
+.hspace-13 { margin-left: 13px; margin-right: 13px; }
+.hspace-10 { margin-left: 10px; margin-right: 10px; }
+
+/* Misc */
+.clear-all { clear: both; }
